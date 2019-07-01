@@ -1,0 +1,9 @@
+<h3>Add Product( Form3 )</h3>
+<form (ngSubmit)="save()">
+<label>Product Name:</label>
+<input type="text" [(ngModel)]="product.productName"  name="productName"  required />
+<label>Price:</label>
+<input type="number" [(ngModel)]="product.price" name="price" required />
+<button type="submit">Submit</button>
+</form>
+
